@@ -14,8 +14,10 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
 Plugin 'airblade/vim-gitgutter'
+
+Plugin 'flazz/vim-colorschemes'
 call vundle#end()            " required
-syntax on
+"syntax on
 set shell=/bin/bash
 
 
@@ -26,8 +28,8 @@ autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 
 
 
-
-
+" color schema
+colorscheme dracula
 " For NerdTree
 let NERDTreeShowHidden=1
 autocmd vimenter * NERDTree

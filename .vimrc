@@ -13,6 +13,7 @@ Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
+Plugin 'airblade/vim-gitgutter'
 call vundle#end()            " required
 syntax on
 set shell=/bin/bash
@@ -24,11 +25,7 @@ filetype plugin indent on
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 
 
-set laststatus=2
 
-let g:lightline = {
-      \ 'colorscheme': 'wombat',
-      \ }
 
 
 " For NerdTree
@@ -52,4 +49,8 @@ let g:NERDTreeIndicatorMapCustom = {
     \ 'Ignored'   : '☒',
     \ "Unknown"   : "?"
     \ }
-
+" For airline
+set laststatus=2
+set ttimeoutlen=50
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_solarized_bg='bubblegum'

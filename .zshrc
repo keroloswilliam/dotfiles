@@ -36,7 +36,7 @@ ZSH_TMUX_AUTOSTART=true
 # DISABLE_UPDATE_PROMPT="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
+export UPDATE_ZSH_DAYS=13
 
 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS=true
@@ -113,6 +113,4 @@ alias zshconfig="vim ~/.zshrc"
 #
 export PATH=$PATH:/home/linuxbrew/.linuxbrew/bin/brew:/home/linuxbrew/.linuxbrew/bin:/snap/bin:/home/maverick/.local/bin:/usr/local/go/bin
 DEFAULT_USER=maverick
-export DRONE_SERVER=https://drone.4sale.tech
-export DRONE_TOKEN=CywTYlPSiiK6A4kOFVaw1enrF8cJ2HQD
 

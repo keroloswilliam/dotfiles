@@ -56,3 +56,13 @@ set laststatus=2
 set ttimeoutlen=50
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_solarized_bg='bubblegum'
+
+""""""""""" spliting control 
+" shortcuts for spliting
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+" for more natural spliting 
+set splitbelow
+set splitright

@@ -2,14 +2,14 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/maverick/.oh-my-zsh"
+export ZSH=<OH-MY-ZSH INSTALLATION PATH>
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="agnoster"
-DEFAULT_USER="maverick"
+DEFAULT_USER=<DEFAULT USERNAME>
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
@@ -112,6 +112,5 @@ fi
 alias zshconfig="vim ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
-export PATH=$PATH:/home/linuxbrew/.linuxbrew/bin/brew:/home/linuxbrew/.linuxbrew/bin:/snap/bin:/home/maverick/.local/bin:/usr/local/go/bin
-DEFAULT_USER=maverick
+export PATH=<PATH CHANGES >
 

@@ -16,6 +16,8 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'airblade/vim-gitgutter'
 
 Plugin 'flazz/vim-colorschemes'
+
+Plugin 'tpope/vim-fugitive'
 call vundle#end()            " required
 "syntax on
 set shell=/bin/bash

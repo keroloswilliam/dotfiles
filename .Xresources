@@ -11,9 +11,9 @@ URxvt*scrollstyle: plain
 
 URxvt.buffered:         true
 URxvt.background:      black
-URxvt.foreground:       #00cc00
-URxvt.cursorColor:      #00ff00
-URxvt.underlineColor:   green
+URxvt.foreground:       #24B934
+URxvt.cursorColor:      #24b934
+URxvt.underlineColor:   blue
 URxvt.font:             xft:Terminus:pixelsize=12:antialias=false
 URxvt.urlLauncher:     /usr/bin/firefox
 URxvt.matcher.button:  1 
@@ -29,56 +29,39 @@ URxvt.matcher.button:  1
 
 
 ! terminal colors ------------------------------------------------------------
-! matrix colorscheme by zowki
+! special
+*.foreground:   #ffffff
+*.background:   #000000
+*.cursorColor:  #ffffff
 
-*foreground: #000000
-*background: #00cc00
+! black
+*.color0:       #252525
+*.color8:       #454545
 
-! Normal
-! color0    black
-! color1    red
-! color2    green
-! color3    yellow
-! color4    blue
-! color5    purple
-! color6    cyan
-! color7    white
+! red
+*.color1:       #ff9f95
+*.color9:       #ff8d80
 
-*color0:    #000000
-*color1:    #55ff55
-*color2:    #00cc00
-*color3:    #00cc00
-*color4:    #005500
-*color5:    #55ff55
-*color6:    #00cc00
-*color7:    #00cc00
+! green
+*.color2:       #a6e22e
+*.color10:      #b6e354
 
-! Light
-! color8    black
-! color9    red
-! color10    green
-! color11    yellow
-! color12    blue
-! color13    purple
-! color14    cyan
-! color15    white
+! yellow
+*.color3:       #fd971f
+*.color11:      #fd971f
 
-*color8:    #000000
-*color9:    #55ff55
-*color10:    #55ff55
-*color11:    #55ff55
-*color12:    #005500
-*color13:    #55ff55
-*color14:    #55ff55
-*color15:    #00cc00
+! blue
+*.color4:       #435e87
+*.color12:      #587aa4
 
+! magenta
+*.color5:       #789ec6
+*.color13:      #46a4ff
 
-! Resources:
-!https://wiki.archlinux.org/index.php/X_resources#Comments
-!https://wiki.archlinux.org/index.php/X_resources
-!https://bbs.archlinux.org/viewtopic.php?id=91676
-!https://www.askapache.com/linux/rxvt-xresources/
-!https://unix.stackexchange.com/questions/104777/what-is-the-default-font-used-in-rxvt
-!https://bbs.archlinux.org/viewtopic.php?id=51818&p=8
-!https://unix.stackexchange.com/a/260350/338665
-!https://gist.github.com/whit/1307597/da0ef6f9aaa59b5a720e27011efe9e47e170e2b9
+! cyan
+*.color6:       #5e7175
+*.color14:      #a3babf
+
+! white
+*.color7:       #dbdcdc
+*.color15:      #fdfdfd
